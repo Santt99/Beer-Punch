@@ -17,11 +17,23 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(keyToPause))
         {
-            activateOrDesactivatePauseMenu();
+
+            PauseMenuController();
         }
     }
 
-    public void activateOrDesactivatePauseMenu()
+    public void PauseMenuController()
+    {
+        if (!pauseMenu.enabled)
+        {
+            StartCoroutine(activatePM(5));
+        }
+        else
+        {
+            ActivateOrDesactivatePauseMenu();
+        }
+    }
+    public void ActivateOrDesactivatePauseMenu()
     {
         pauseMenu.enabled = !pauseMenu.enabled;
         if (pauseMenu.enabled)
@@ -33,5 +45,10 @@ public class GameController : MonoBehaviour
             Time.timeScale = 1;
         }
     }
+    IEnumerator activatePM(float seconds)
+    {
 
+        yield return new WaitForSecondsRealtime(seconds);
+        ActivateOrDesactivatePauseMenu();
+    }
 }
