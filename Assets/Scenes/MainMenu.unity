@@ -138,6 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e24b499d33a1c978d362c0d0dcc449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicMixer: {fileID: 0}
+  soundsMixer: {fileID: 0}
 --- !u!1 &415807939
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,15 +486,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 297917004}
-    - target: {fileID: 3424219833465384728, guid: 6265c7686babe75c3a6370f37d71bda6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 297917004}
     - target: {fileID: 3424219832252968684, guid: 6265c7686babe75c3a6370f37d71bda6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 297917004}
+    - target: {fileID: 3424219833465384728, guid: 6265c7686babe75c3a6370f37d71bda6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 297917004}
+    - target: {fileID: 1484787742362736113, guid: 6265c7686babe75c3a6370f37d71bda6,
+        type: 3}
+      propertyPath: m_Text
+      value: Quit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6265c7686babe75c3a6370f37d71bda6, type: 3}

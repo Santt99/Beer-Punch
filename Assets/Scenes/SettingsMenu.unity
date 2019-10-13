@@ -389,6 +389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e24b499d33a1c978d362c0d0dcc449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicMixer: {fileID: 24100000, guid: 5032ef498fa47e049a33df6fcd4f1319, type: 2}
+  soundsMixer: {fileID: 24100000, guid: 763d288e024e15e68b0793ec655d012f, type: 2}
 --- !u!4 &2053752881
 Transform:
   m_ObjectHideFlags: 0
@@ -624,7 +626,7 @@ PrefabInstance:
     - target: {fileID: 2516846348052014660, guid: 7166fa6378ebd9157a52d08c07180dc8,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolume
+      value: SetSoundsVolume
       objectReference: {fileID: 0}
     - target: {fileID: 2516846348052014660, guid: 7166fa6378ebd9157a52d08c07180dc8,
         type: 3}
@@ -669,7 +671,7 @@ PrefabInstance:
     - target: {fileID: 644971435917822790, guid: 7166fa6378ebd9157a52d08c07180dc8,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolume
+      value: SetMusicVolume
       objectReference: {fileID: 0}
     - target: {fileID: 644971435917822790, guid: 7166fa6378ebd9157a52d08c07180dc8,
         type: 3}
@@ -719,7 +721,7 @@ PrefabInstance:
     - target: {fileID: 6301987192152527363, guid: 7166fa6378ebd9157a52d08c07180dc8,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolume
+      value: SetGraphics
       objectReference: {fileID: 0}
     - target: {fileID: 6301987192152527363, guid: 7166fa6378ebd9157a52d08c07180dc8,
         type: 3}
