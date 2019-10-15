@@ -195,7 +195,7 @@ PrefabInstance:
     - target: {fileID: 270088205531262380, guid: 25eacf56622658996bba42edec7aeb9d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 603
+      value: 603.00006
       objectReference: {fileID: 0}
     - target: {fileID: 270088205531262380, guid: 25eacf56622658996bba42edec7aeb9d,
         type: 3}
@@ -242,6 +242,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1849535695}
+    - target: {fileID: 270088205531262379, guid: 25eacf56622658996bba42edec7aeb9d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PauseMenuController
+      objectReference: {fileID: 0}
+    - target: {fileID: 6071459334004681245, guid: 25eacf56622658996bba42edec7aeb9d,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25eacf56622658996bba42edec7aeb9d, type: 3}
 --- !u!1 &403825421 stripped
@@ -360,7 +370,7 @@ GameObject:
   - component: {fileID: 570792116}
   m_Layer: 0
   m_Name: EventSystem
-  m_TagString: Untagged
+  m_TagString: EventSys
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -577,7 +587,7 @@ PrefabInstance:
     - target: {fileID: 270088205531262380, guid: 25eacf56622658996bba42edec7aeb9d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 434
+      value: 434.00006
       objectReference: {fileID: 0}
     - target: {fileID: 270088205531262380, guid: 25eacf56622658996bba42edec7aeb9d,
         type: 3}
@@ -680,7 +690,7 @@ GameObject:
   - component: {fileID: 1630920827}
   - component: {fileID: 1630920826}
   m_Layer: 5
-  m_Name: PauseMenu
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -754,7 +764,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630920824}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -858,17 +868,17 @@ PrefabInstance:
     - target: {fileID: 2144762124129428689, guid: 5996fa2ee9aefea16ab043fdc8e6cd93,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2144762124129428689, guid: 5996fa2ee9aefea16ab043fdc8e6cd93,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2144762124129428689, guid: 5996fa2ee9aefea16ab043fdc8e6cd93,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2144762124129428689, guid: 5996fa2ee9aefea16ab043fdc8e6cd93,
         type: 3}

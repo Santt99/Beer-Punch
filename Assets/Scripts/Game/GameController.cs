@@ -7,11 +7,6 @@ public class GameController : MonoBehaviour
 {
     public KeyCode keyToPause;
     public Canvas pauseMenu;
-    void Start()
-    {
-
-    }
-
 
     void Update()
     {
@@ -26,7 +21,7 @@ public class GameController : MonoBehaviour
     {
         if (!pauseMenu.enabled)
         {
-            StartCoroutine(activatePM(5));
+            StartCoroutine(activatePM(3));
         }
         else
         {
